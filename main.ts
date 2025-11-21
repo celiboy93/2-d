@@ -1,4 +1,4 @@
-import { Hono } from "jsr:@hono/hono";
+import { Hono } from "jsr:@hono/hono"; 
 import { getCookie, setCookie } from "jsr:@honajsr:@hono/hono/cookie";
 import { kv, User, TwoDResult, TwoDBet, getUser, hashPassword, getConfig, save2DResult } from "./db.ts";
 
